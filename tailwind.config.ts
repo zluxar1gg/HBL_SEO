@@ -18,7 +18,9 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['"Plus Jakarta Sans"', 'sans-serif']
+        // ВАЖНО: Мы используем переменную var(--font-jakarta), 
+        // которая будет сгенерирована в layout.tsx
+        sans: ['var(--font-jakarta)', 'sans-serif']
       },
       container: {
         center: true,
